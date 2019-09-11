@@ -1,4 +1,4 @@
-package cloud.stream.source.domain;
+package cloud.stream.sink.printer.domain;
 
 public class Tweet {
     public String text;

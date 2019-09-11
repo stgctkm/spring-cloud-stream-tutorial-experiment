@@ -2,3 +2,4 @@ rootProject.name = 'spring-cloud-stream-tutorial'
 
 include 'source'
 include 'sink'
+include 'tweet-viewer'

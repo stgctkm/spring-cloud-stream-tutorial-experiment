@@ -1,12 +1,12 @@
-package cloud.stream.source.listener;
+package cloud.stream.sink.printer.listener;
 
-import cloud.stream.source.domain.Tweet;
+import cloud.stream.sink.printer.domain.Tweet;
 import org.springframework.cloud.stream.annotation.EnableBinding;
 import org.springframework.cloud.stream.annotation.StreamListener;
 import org.springframework.cloud.stream.messaging.Sink;
 
 @EnableBinding(Sink.class)
-public class TweetListener {
+public class TweetPrintListener {
 
     @StreamListener(Sink.INPUT)
     public void print(Tweet tweet) {

@@ -1,6 +1,6 @@
-package cloud.stream.source;
+package cloud.stream.sink.printer;
 
-import cloud.stream.source.domain.Tweet;
+import cloud.stream.sink.viewer.domain.Tweet;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
